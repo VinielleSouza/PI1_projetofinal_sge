@@ -1,0 +1,220 @@
+<!DOCTYPE html> 
+    <html lang="pt-BR"> 
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IFB - Sistema de Gerenciamento de Estágio</title>
+    <!-- Ícone do site -->
+    <link rel="icon" href="img/ico-ifb.ico" type="image/x-icon">
+    <!-- Estilo CSS externo -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Cabeçalho com logotipo e nome do sistema -->
+    <header id="cabeca-incio">
+        <div>
+
+            <a href="index.html">
+                <img src="img/logo branca.png" alt="Logomarca do Instituto Federal de Brasília na cor branca"> SGE
+            </a>            
+        </div>
+    
+
+
+    <div id="dados-user">
+
+        <div >
+            <img id="img-user" src="img/Usuario.png" alt="Imagem do Servidor"> 
+        
+        </div>
+
+        <div>
+            <p>Usuário: Nome Sobrenome</p> 
+            <p>Cargo: Xxxxxx</p> 
+             <button id="botao-sair">Sair</button>
+        </div>
+ 
+    </div>
+
+</header>
+
+        
+    
+<section>
+   
+    
+
+    <form action="" method="" name="">
+
+        <h1>Cadastramento de Contrato de Estágio</h1>
+        <h2>Dados Pessoais</h2>
+        <label for="nome">Nome:</label>
+		<input class="nome" id="nome" type="text" name="nome" placeholder="Nome completo" required /><br/>
+        <div>
+            
+            <label for="Data de Nascimento"> Data de Nascimento :</label>
+            <input class="date" type="date" name="data" id="data" required>
+    
+            <label for="cpf"> CPF :</label>
+            <input class="date" type="text" name="cpf" id="cpf" placeholder="apenas numeros">
+
+            <label for="telefone">telefone : </label>
+            <input class="date" type="tel" name="telefone" id="telefone" placeholder="(99) 9 99999999">
+
+        </div>
+
+
+        <label for="email">Email :</label>
+        <input class="nome" type="mailto" name="imail" id="email">
+
+        <h2>Dados Academicos</h2>
+
+        <label for="curso">Curso</label>
+        <input class="nome" type="text" id="curso" name="curso" required> 
+
+        <div>
+            <label for="matricula"> Matrícula:</label>
+            <input class="date" type="text" id="matricula" name="matricula" required placeholder="apenas números">
+
+            <label for="status"> Status:</label>
+            <select  class="date" name="status" id="status">
+
+                <option value="">Selecione</option>
+                <option value="">Status 1</option>
+                <option value="">Status 2</option>
+                <option value="">Status 3</option>
+            
+            </select>
+
+            <label for="turno">Turno</label>
+            <select class="date" name="turno" id="turno">
+
+                <option value="">Selecione</option>
+                <option value="">Matutino</option>
+                <option value="">Vespertino</option>
+                <option value="">Noturno</option>
+
+            </select>
+            
+        </div>
+
+        <h2>Dados do Estágio</h2>
+
+        <div>
+            <label for="agencia">Agência :</label>
+            <input class="date" type="text" name="agencia" id="agencia">
+            
+            <label for="concedente">Concedente :</label>
+            <input  class="date"type="text" name="concedente" id="concedente">
+        </div> <br>
+
+        <div>
+            <label for="termo">Número do Termo :</label>
+            <input class="date" type="text" name="termo" id="termo">
+            
+            <label for="remuneracao">Remuneraçao :</label>
+            <input class="date" type="text" name="remuneracao" id="remuneracao">
+        </div>
+        
+        <label for="supervisor">Supervisor :</label>
+        <input class="nome" type="text" name="supervisor" id="supervisor">
+
+        <label for="orientador">Orientador :</label>
+        <input class="nome" type="text" name="orientador" id="orientador"> 
+        
+        <div>
+            <label for="dataincio">Data  do Início  Estágio :</label>
+            <input class="date"  type="date" name="dataincio" id="dataincio">
+
+            <label for="datatermino">Data  do Término Estágio :</label>
+            <input class="date" type="date" name="datatermino" id="datatermino">
+           
+
+            <label for="dataterminoori">Data  do Término Original :</label>
+            <input class="date" type="date" name="dataterminoori" id="dataterminoori">
+
+            <label for="dataterminofinal">Data  Término Final (após  aditivos se houver) :</label>
+            <input class="date" type="date" name="dataterminofinal" id="dataterminofinal">
+        </div> <br>
+        <div>
+            <label for="anoincio">Ano Inicio :</label>
+            <input class="date" type="text" name="anoincio" id="anoincio">
+
+            <label for="">Ano Término Original</label>
+            <input class="date"  type="text" name="" id="">
+        </div><br>
+        <div>
+
+            <label for="dataincio-1">Data  do Início  Estágio :</label>
+            <input  class="date" type="date" name="dataincio-1" id="dataincio-1">
+
+            <label for="datatermino -1">Data  do Término Estágio :</label>
+            <input  class="date" type="date" name="datatermino -1" id="datatermino -1">
+
+            <label for="dataterminoori-1">Data  do Término Original :</label>
+            <input class="date" type="date" name="dataterminoori-1" id="dataterminoori-1">
+          
+        </div> <br>
+
+          <div>
+            <label for="entavl">entrega Avalição 3 : </label>
+            <input class="date" type="text" name="entavl" id="entavl">
+            
+            
+            <label for="encerr">Encerramento :</label>
+            <input class="date" type="text" name="encerr" id="encerr">
+        </div> <br>
+        
+        <div>
+            <legend>Termo Desenvolvido </legend> <br>
+            <input  type="radio" name="sim" id="sim"> <label for="sim"> Sim </label>
+            <input  type="radio" name="nao" id="nao"> <label for="nao"> Não </label>
+            <input  type="radio" name="obs" id="obs"> <label for="obs"> Observação </label>
+            
+
+        </div> <br>
+        
+      
+
+        
+        <label for="text">Observações </label> <br>
+        <textarea class="date" name="text" id="text" cols="70" rows="8"></textarea> 
+
+       
+        
+        <div id="botoes-form">
+            <input type="submit" name="bnt-agendar" value="Enviar" />
+            <input type="reset" name="btn-cancelar" value="Cancelar" />
+        </div>
+
+
+
+
+
+
+
+
+    </form>
+
+</section> 
+
+
+
+
+
+
+
+        <footer >
+            <p>Desenvolvido por 
+                <a href="">Pedro Simão</a>, 
+                <a href="">Sandro Nunes</a>, 
+                <a href="">Vinielle Souza</a> 
+                | 2024
+            </p>
+            <!-- Inserir links nos nomes dos alunos para redirecionar a uma página da escolha, como LinkedIn -->
+        </footer>
+</body> 
+</html>

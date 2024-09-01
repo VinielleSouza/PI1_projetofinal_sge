@@ -1,0 +1,365 @@
+/* Importando a fonte "Open Sans" do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* Resetando margens e padding */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Estilo do cabeçalho parte do inicio */
+
+#cabeca-index {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    padding: 0 20px;
+    background-color: #2F9E41;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+header img {
+    width: 6em;
+}
+
+.sge {
+    color: #ffffff;
+    font-size: 1.5em;
+    margin-left: 10px;
+}
+
+
+
+
+/* Seção do formulário de login da página de inicio */
+
+.formu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    /* Altura da tela menos o cabeçalho e o rodapé */
+}
+
+
+
+#login {
+    margin:50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+#img-login{
+    width: 10em;
+}
+
+
+/* Estilo do título do sistema */
+
+#sistema {
+    font-size: 1.1em;
+    text-align: center;
+    font-family: "Open Sans bold", sans-serif;
+    margin-bottom: 20px;
+}
+
+.login {
+    padding: 0.3em;
+    font-size: 1em;
+    font-family: "Open Sans", sans-serif;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    max-width: 310px;
+}
+
+#botao-inicio{
+    background-color: #599124;
+    padding: 15px;
+    width: 70%;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+
+
+}
+
+#botao-perso{
+    color: #ffffff;
+    font-size: 1.5em;
+}
+
+
+
+
+
+/*Pagina de incio CSS*/
+
+#container
+ {
+    display: flex;
+    
+}
+
+
+.inicio {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content:b;
+    background-color: #2F9E41;
+    width: 23%;
+    padding: 20px;
+    
+}
+
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.sge-inicio-1 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.sge-inicio {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.inicio-in {
+    display: flex;
+    flex-direction: column;
+    background-color: #008000;
+    margin: 20px 0;
+    width: 100%;
+    padding: 10px;
+}
+
+
+.cad-inicio {
+    font-family: "Open Sans", sans-serif;
+    margin: 6px 0;
+    padding: 15px;
+    background-color: #599124;
+    color: #ffffff;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+#img-grafico{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#container-img {
+    
+    width: 1000px 
+       
+}
+
+.log {
+    width: 100%;
+    padding: 15px;
+    background-color: #008000;
+    text-align: center;
+    color: #ffffff;
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 51px;
+    background-color: #2F9E41;
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    position: fixed;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Pagina de Cadastro CSS*/
+
+
+#cabeca-incio{
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+    height: 100px;
+    padding: 0 20px;
+    background-color: #2F9E41;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+}
+
+
+/* Estilizando o formulário */
+section form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #dddddd;
+    padding: 40px;
+    margin: 10em;
+    gap: 0.2em;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px #a1a1a1;
+}
+
+
+
+/* Estilizando os links */
+
+
+#dados-user{
+
+    display: flex;
+    
+    align-items: center;
+    text-align: center;
+    
+}
+
+
+#img-user{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 30px;
+    
+}
+
+#botao-sair{
+    background-color: #fd403d;
+    padding: 0.3em;
+    border-radius: 10px;
+    border: none;
+    width: 7em;
+    margin: 5px;
+    cursor: pointer; 
+
+}
+
+
+
+/* Estilo do rodapé */
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 20px; /* Altura do rodapé */
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #2F9E41;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    z-index: 1000; }
+
+
+
+
+
+
+    /*Formlário CSS*/
+
+h1 {
+
+    text-align: center;
+    margin: 20px;
+}
+
+
+input[type="submit"], input[type="reset"]{
+	margin: 20px;
+	background-color: #8BC34A;
+	color: #FFF;
+	border: 0;
+	border-radius: 5px;
+    padding: 1em;
+    cursor: pointer;
+    
+}
+
+input[type="reset"]{
+	background-color: #F47E7E;
+}
+
+   
+
+
+     .nome{
+        padding: 10px;
+        margin-right: 70%;
+        margin: 0.5;
+        border-radius: 5px;
+        border: none;
+     }
+
+     .date{
+        padding: 0.5em;
+        margin: 0.5;
+        border-radius: 5px;
+        border: none;
+
+     }
+
+     h2{
+
+    margin: 20px 0px 20px 0px ;
+
+     }
+
+
+
+     /*Relatorio CSS*/
+
+     #cards-relatorio{
+        display: flex;
+        flex-wrap: wrap; /* Permite que os itens sejam distribuídos em várias linhas */
+        justify-content: space-around; /* Centraliza os itens horizontalmente */
+        align-items: center; 
+
+         
+        
+     }
+
+     .cards-relatorio{
+        width: 229px;
+        height: 172px;
+        background-color: #a1a1a1;
+        margin: 30px;
+
+     }
